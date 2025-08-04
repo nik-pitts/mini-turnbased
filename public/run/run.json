@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "positions": "___P_B_____",
+    "playerAction": {
+      "type": "attack",
+      "distance": 3
+    },
+    "bossAction": "short distance attack",
+    "results": {
+      "playerDamage": 20,
+      "bossDamage": 30,
+      "playerHealth": 80,
+      "bossHealth": 70
+    },
+    "summary": "Player Action: Attack. Deal: 30 damage.\n\nBoss Action: \"Short distance attack\". Deal: 20 damage."
+  },
+  {
+    "id": 2,
+    "positions": "___P_B_____",
+    "playerAction": {
+      "type": "heal"
+    },
+    "bossAction": "poisoning",
+    "results": {
+      "playerDamage": -15,
+      "bossDamage": 0,
+      "playerHealth": 95,
+      "bossHealth": 70
+    },
+    "summary": "Player Action: Heal.\n\nBoss Action: \"Poisoning\". Deal: missed."
+  },
+  {
+    "id": 3,
+    "positions": "_B_P_______",
+    "playerAction": {
+      "type": "attack",
+      "distance": 3
+    },
+    "bossAction": "poisoning",
+    "results": {
+      "playerDamage": 12,
+      "bossDamage": 30,
+      "playerHealth": 83,
+      "bossHealth": 40
+    },
+    "summary": "Player Action: Attack. Deal: 30 damage.\n\nBoss Action: \"Poisoning\". Deal: 12 damage."
+  },
+  {
+    "id": 4,
+    "positions": "___P_B_____",
+    "playerAction": {
+      "type": "attack",
+      "distance": 3
+    },
+    "bossAction": "medium distance attack",
+    "results": {
+      "playerDamage": 0,
+      "bossDamage": 30,
+      "playerHealth": 83,
+      "bossHealth": 10
+    },
+    "summary": "Player Action: Attack. Deal: 30 damage.\n\nBoss Action: \"Medium distance attack\". Deal: missed."
+  },
+  {
+    "id": 5,
+    "positions": "___P___B___",
+    "playerAction": {
+      "type": "attack",
+      "distance": 3
+    },
+    "bossAction": "poisoning",
+    "results": {
+      "playerDamage": 12,
+      "bossDamage": 30,
+      "playerHealth": 71,
+      "bossHealth": 0
+    },
+    "summary": "Player Action: Attack. Deal: 30 damage.\n\nBoss Action: \"Poisoning\". Deal: 12 damage."
+  }
+]

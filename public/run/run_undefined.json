@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "positions": "_____B____P",
+    "playerAction": "heal",
+    "bossAction": "poisoning",
+    "results": {
+      "playerDamage": -7,
+      "bossDamage": 0,
+      "playerHealth": 107,
+      "bossHealth": 100
+    },
+    "summary": "Player Action: Heal.\nBoss Action: \"Poisoning\". Deal: missed."
+  },
+  {
+    "id": 2,
+    "positions": "_P______B__",
+    "playerAction": null,
+    "bossAction": "medium distance attack",
+    "results": {
+      "playerDamage": 0,
+      "bossDamage": 0,
+      "playerHealth": 107,
+      "bossHealth": 100
+    },
+    "summary": "No action.\nBoss Action: \"Medium distance attack\". Deal: missed."
+  },
+  {
+    "id": 3,
+    "positions": "_____B____P",
+    "playerAction": "attack",
+    "bossAction": "poisoning",
+    "results": {
+      "playerDamage": 12,
+      "bossDamage": 30,
+      "playerHealth": 95,
+      "bossHealth": 70
+    },
+    "summary": "Player Action: Attack. Deal: 30 damage.\nBoss Action: \"Poisoning\". Deal: 12 damage."
+  },
+  {
+    "id": 4,
+    "positions": "________B_P",
+    "playerAction": "heal",
+    "bossAction": "poisoning",
+    "results": {
+      "playerDamage": 12,
+      "bossDamage": 0,
+      "playerHealth": 83,
+      "bossHealth": 70
+    },
+    "summary": "Player Action: Heal.\nBoss Action: \"Poisoning\". Deal: 12 damage."
+  },
+  {
+    "id": 5,
+    "positions": "___P_B_____",
+    "playerAction": "heal",
+    "bossAction": "poisoning",
+    "results": {
+      "playerDamage": 12,
+      "bossDamage": 0,
+      "playerHealth": 71,
+      "bossHealth": 70
+    },
+    "summary": "Player Action: Heal.\nBoss Action: \"Poisoning\". Deal: 12 damage."
+  },
+  {
+    "id": 6,
+    "positions": "_____B___P_",
+    "playerAction": "heal",
+    "bossAction": "shield breaker",
+    "results": {
+      "playerDamage": 0,
+      "bossDamage": 0,
+      "playerHealth": 71,
+      "bossHealth": 70
+    },
+    "summary": "Player Action: Heal.\nBoss Action: \"Shield breaker\". Deal: missed."
+  },
+  {
+    "id": 7,
+    "positions": "_____B____P",
+    "playerAction": null,
+    "bossAction": "short distance attack",
+    "results": {
+      "playerDamage": 0,
+      "bossDamage": 0,
+      "playerHealth": 71,
+      "bossHealth": 70
+    },
+    "summary": "No action.\nBoss Action: \"Short distance attack\". Deal: missed."
+  },
+  {
+    "id": 8,
+    "positions": "_____B____P",
+    "playerAction": "attack",
+    "bossAction": "poisoning",
+    "results": {
+      "playerDamage": 12,
+      "bossDamage": 30,
+      "playerHealth": 59,
+      "bossHealth": 40
+    },
+    "summary": "Player Action: Attack. Deal: 30 damage.\nBoss Action: \"Poisoning\". Deal: 12 damage."
+  },
+  {
+    "id": 9,
+    "positions": "_____B____P",
+    "playerAction": "attack",
+    "bossAction": "medium distance attack",
+    "results": {
+      "playerDamage": 15,
+      "bossDamage": 30,
+      "playerHealth": 44,
+      "bossHealth": 10
+    },
+    "summary": "Player Action: Attack. Deal: 30 damage.\nBoss Action: \"Medium distance attack\". Deal: 15 damage."
+  },
+  {
+    "id": 10,
+    "positions": "______B___P",
+    "playerAction": "attack",
+    "bossAction": "poisoning",
+    "results": {
+      "playerDamage": 12,
+      "bossDamage": 30,
+      "playerHealth": 32,
+      "bossHealth": 0
+    },
+    "summary": "Player Action: Attack. Deal: 30 damage.\nBoss Action: \"Poisoning\". Deal: 12 damage."
+  }
+]
